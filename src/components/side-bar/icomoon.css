@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../assets/icomoon/fonts/icomoon.eot?mkx8ej');
+  src:  url('../../assets/icomoon/fonts/icomoon.eot?mkx8ej#iefix') format('embedded-opentype'),
+    url('../../assets/icomoon/fonts/icomoon.ttf?mkx8ej') format('truetype'),
+    url('../../assets/icomoon/fonts/icomoon.woff?mkx8ej') format('woff'),
+    url('../../assets/icomoon/fonts/icomoon.svg?mkx8ej#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="dash-"], [class*=" dash-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dash-icomoon:before {
+  content: "\e900";
+  color: inherit;
+}

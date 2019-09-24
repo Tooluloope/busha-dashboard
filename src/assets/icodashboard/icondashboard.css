@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../../assets/icodashboard/fonts/icomoon.eot?ryo7jz');
+  src:  url('../../assets/icodashboard/fonts/icomoon.eot?ryo7jz#iefix') format('embedded-opentype'),
+    url('../../assets/icodashboard/fonts/icomoon.ttf?ryo7jz') format('truetype'),
+    url('../../assets/icodashboard/fonts/icomoon.woff?ryo7jz') format('woff'),
+    url('../../assets/icodashboard/fonts/icomoon.svg?ryo7jz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="pay-"], [class*=" pay-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pay-icondashboard:before {
+  content: "\e900";
+  color: inherit;
+}

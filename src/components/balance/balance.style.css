@@ -1,0 +1,69 @@
+.margin {
+    margin: 5px 80px;
+}
+table {
+    margin: 5px auto;
+}
+.float {
+    text-align: right !important;
+}
+thead th {
+    height: 50px;
+    line-height: 25px !important;
+    padding-bottom: 5px;
+    vertical-align: middle;
+  }
+
+.table>tbody>tr>th {
+    vertical-align: middle;
+}
+
+.pad {
+    padding-left: 20px !important;
+    padding-right:20px !important;
+}
+.text-color-head {
+    color: #6B778C !important;
+}
+
+.text-color-body {
+    color: #42526E !important;
+}
+.no-gutter {
+    margin-bottom: 0
+}
+ 
+.last-row-height {
+    height: 80px
+}
+
+.fa-bitcoin:before {
+    color: #F5B300;
+    border-radius: 100%;
+    width: 29.11px;
+    height: 29.11px;
+  }
+i.fab {
+    font-size: 29px;
+
+}
+.icon-margin {
+    margin-right: 10px;
+}
+.icon-margin-eth {
+    margin-right: 6px;
+}
+.icon-width-naira {
+    width: 32px;
+}
+.circle-icon {
+    background: #5060A2;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 29px;
+    vertical-align: middle;
+    padding: 30px;
+    color: white;
+}

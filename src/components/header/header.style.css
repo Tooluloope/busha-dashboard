@@ -1,0 +1,130 @@
+.navbar-default {
+    background-color: transparent !important;
+    border: #e7e7e7 0px solid !important;
+}
+
+.page-title {
+    color: #172B4D !important;
+    font-family: CharlieDisplay !important;
+    font-size: 32px !important;
+    font-weight: 600;
+    letter-spacing: 0.16px;
+    line-height: 38px;
+    text-align: left;
+    margin-left: 95px !important;
+  }
+nav {
+    margin-top: 5px !important;
+
+}
+
+.test-mode {
+    color: #172B4D !important;
+    font-family: CharlieDisplay !important; 
+    font-size: 16px !important;
+    font-weight: 600;
+    letter-spacing: 0.08px;
+    line-height: 19px;
+    text-align: left;
+  }
+
+.margin-name {
+    margin-top: 9px;
+}
+.icon-width-bell {
+    width: 25px;
+}
+
+.rectangle-4-copy-5 {
+    background-color: #FFFFFF;
+    border: 1px solid #DFE1E6;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(15, 15, 15, 0.1), 0 0 0 1px rgba(15, 15, 15, 0.06);
+    width: 934px;
+    height: 299px;
+    }
+
+.oval {
+    background-color: #D8D8D8;
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    padding: 7px 10px;
+    }
+.oluwatobi-mayowa {
+    color: #172B4D !important; 
+    font-family: CharlieDisplay;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.07px;
+    line-height: 17px !important;
+    text-align: right;
+    }
+.margin-li-test{
+    margin: 6px 0 5px 0px;
+
+}
+.margin-li-bell{
+    margin: 5px 0 5px 0px;
+
+}
+.margin-li-toggle {
+    margin-top: 19px;
+}
+
+
+.tgl {
+    display: none;
+  }
+  .tgl, .tgl:after, .tgl:before, .tgl *, .tgl *:after, .tgl *:before, .tgl + .tgl-btn {
+    box-sizing: border-box;
+  }
+  .tgl::-moz-selection, .tgl:after::-moz-selection, .tgl:before::-moz-selection, .tgl *::-moz-selection, .tgl *:after::-moz-selection, .tgl *:before::-moz-selection, .tgl + .tgl-btn::-moz-selection {
+    background: none;
+  }
+  .tgl::selection, .tgl:after::selection, .tgl:before::selection, .tgl *::selection, .tgl *:after::selection, .tgl *:before::selection, .tgl + .tgl-btn::selection {
+    background: none;
+  }
+  .tgl + .tgl-btn {
+    outline: 0;
+    display: block;
+    width: 3.5em;
+    height: 23px;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .tgl + .tgl-btn:after, .tgl + .tgl-btn:before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+  }
+  .tgl + .tgl-btn:after {
+    left: 0;
+  }
+  .tgl + .tgl-btn:before {
+    display: none;
+  }
+  .tgl:checked + .tgl-btn:after {
+    left: 50%;
+  }
+  
+  .tgl-light + .tgl-btn {
+    background: #f0f0f0;
+    border-radius: 2em;
+    padding: 2px;
+    transition: all 0.4s ease;
+  }
+  .tgl-light + .tgl-btn:after {
+    border-radius: 50%;
+    background: #fff;
+    transition: all 0.2s ease;
+  }
+  .tgl-light:checked + .tgl-btn {
+    background: #67C462;
+  }
